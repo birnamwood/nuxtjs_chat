@@ -13,7 +13,7 @@
         </ul>
       </li>
     </ul>
-          <a href="~/account">ログイン画面</a>
+          <a href="/account">ログイン画面</a>
   </div>
 </template>
 
