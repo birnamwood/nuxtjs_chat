@@ -16,6 +16,7 @@ module.exports = {
 
   plugins: [
     { src: '~/plugins/firebase.js', mode: 'client' },
+    { src: '~/plugins/persistedstate.js', mode: 'client' },
   ],
   /*
   ** Customize the progress bar color
