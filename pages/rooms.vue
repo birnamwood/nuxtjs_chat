@@ -13,7 +13,7 @@
         </ul>
       </li>
     </ul>
-          <a href="account">ログイン画面</a>
+          <a href="~/account">ログイン画面</a>
   </div>
 </template>
 
@@ -54,6 +54,7 @@ export default {
       const newRoom = { content: this.newRoom }
       this.newRoom = ''
       db.collection('rooms').add(newRoom)
+              this.$store.dispatch('setRoomsRef', db.collection('rooms'))
     },
   }
 }
